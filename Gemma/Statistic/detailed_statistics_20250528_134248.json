@@ -1,0 +1,854 @@
+{
+  "Summary": {
+    "Individual_Preference_result": {
+      "summary_preference_llama_results.json": {
+        "score": {
+          "count": 2000,
+          "mean": 3.5314188063581713,
+          "std": 0.18162043635257802,
+          "min": 1.5260350877192985,
+          "max": 4.199878308487983,
+          "median": 3.5310136879231258
+        }
+      },
+      "summary_preference_gemma_results.json": {
+        "score": {
+          "count": 2000,
+          "mean": 3.536806542827028,
+          "std": 0.17966461803269657,
+          "min": 1.5260350877192985,
+          "max": 4.542365497712916,
+          "median": 3.542374920592142
+        }
+      },
+      "preference_test_results_2000.json": {
+        "raw_probabilities_1": {
+          "count": 2000,
+          "mean": 0.0001757131814956665,
+          "std": 7.544283401704251e-05,
+          "min": 0.0,
+          "max": 0.0006728172302246094,
+          "median": 0.00016826391220092773
+        },
+        "raw_probabilities_2": {
+          "count": 2000,
+          "mean": 0.00010787257552146912,
+          "std": 4.249752547966248e-05,
+          "min": 0.0,
+          "max": 0.0003743171691894531,
+          "median": 0.00010478496551513672
+        },
+        "raw_probabilities_3": {
+          "count": 2000,
+          "mean": 0.00039839184284210205,
+          "std": 0.00016280819835673681,
+          "min": 0.0,
+          "max": 0.002063751220703125,
+          "median": 0.0003739595413208008
+        },
+        "raw_probabilities_4": {
+          "count": 2000,
+          "mean": 0.0010655650198459624,
+          "std": 0.0004770778130934866,
+          "min": 0.0,
+          "max": 0.00421142578125,
+          "median": 0.00096893310546875
+        },
+        "raw_probabilities_5": {
+          "count": 2000,
+          "mean": 0.0002571091651916504,
+          "std": 0.00018323867959694272,
+          "min": 0.0,
+          "max": 0.006114959716796875,
+          "median": 0.00023889541625976562
+        },
+        "score": {
+          "count": 2000,
+          "mean": 3.532361659163732,
+          "std": 0.19183494483467128,
+          "min": 1.0,
+          "max": 4.542254016983285,
+          "median": 3.538776459616292
+        },
+        "total_score_prob": {
+          "count": 2000,
+          "mean": 0.0020046517848968507,
+          "std": 0.0007283883050088664,
+          "min": 0.0,
+          "max": 0.008465170860290527,
+          "median": 0.0018790364265441895
+        }
+      },
+      "summary_preference_deepseek_results.json": {
+        "score": {
+          "count": 2000,
+          "mean": 3.536192238418569,
+          "std": 0.1894857199397107,
+          "min": 1.5260350877192985,
+          "max": 4.457148384600503,
+          "median": 3.5391991485584686
+        }
+      },
+      "summary_preference_xsum_results.json": {
+        "score": {
+          "count": 2000,
+          "mean": 3.545656801533877,
+          "std": 0.1770941416578609,
+          "min": 1.5260350877192985,
+          "max": 4.238143924498624,
+          "median": 3.5466389927763635
+        }
+      },
+      "summary_preference_qwen_results.json": {
+        "score": {
+          "count": 2000,
+          "mean": 3.4591971329705897,
+          "std": 0.17393329923497483,
+          "min": 1.5260350877192985,
+          "max": 4.000194609321786,
+          "median": 3.4774601075112486
+        }
+      }
+    },
+    "Individual_Recognition_result": {
+      "summary_recognition_qwen_results.json": {
+        "recognition_Yes": {
+          "count": 2000,
+          "mean": 0.9026426357676242,
+          "std": 0.06122471176619961,
+          "min": 0.0,
+          "max": 0.9634247714048213,
+          "median": 0.9135941803890966
+        },
+        "recognition_No": {
+          "count": 2000,
+          "mean": 0.09735736423237588,
+          "std": 0.06122471176619961,
+          "min": 0.03657522859517872,
+          "max": 1.0,
+          "median": 0.08640581961090349
+        },
+        "raw_probabilities_raw_yes": {
+          "count": 2000,
+          "mean": 0.000353198766708374,
+          "std": 0.00012497145199244521,
+          "min": 0.0,
+          "max": 0.0010881423950195312,
+          "median": 0.0003314018249511719
+        },
+        "raw_probabilities_raw_no": {
+          "count": 2000,
+          "mean": 3.738459944725037e-05,
+          "std": 2.549601493391143e-05,
+          "min": 0.0,
+          "max": 0.00030612945556640625,
+          "median": 3.3855438232421875e-05
+        },
+        "raw_probabilities_total_yes_no": {
+          "count": 2000,
+          "mean": 0.0003905833661556244,
+          "std": 0.00013650760267572688,
+          "min": 0.0,
+          "max": 0.0011440515518188477,
+          "median": 0.00037238001823425293
+        }
+      },
+      "summary_recognition_xsum_results.json": {
+        "recognition_Yes": {
+          "count": 2000,
+          "mean": 0.9002426648775802,
+          "std": 0.04593030764333693,
+          "min": 0.0,
+          "max": 0.9632459491503096,
+          "median": 0.9047005042795231
+        },
+        "recognition_No": {
+          "count": 2000,
+          "mean": 0.09975733512241985,
+          "std": 0.04593030764333693,
+          "min": 0.036754050849690426,
+          "max": 1.0,
+          "median": 0.09529949572047697
+        },
+        "raw_probabilities_raw_yes": {
+          "count": 2000,
+          "mean": 0.0003925034403800964,
+          "std": 0.00013858555010887026,
+          "min": 0.0,
+          "max": 0.000942230224609375,
+          "median": 0.0003814697265625
+        },
+        "raw_probabilities_raw_no": {
+          "count": 2000,
+          "mean": 4.1729688644409177e-05,
+          "std": 1.7793144001731472e-05,
+          "min": 0.0,
+          "max": 0.0001366138458251953,
+          "median": 4.0024518966674805e-05
+        },
+        "raw_probabilities_total_yes_no": {
+          "count": 2000,
+          "mean": 0.0004342331290245056,
+          "std": 0.00015113212838706989,
+          "min": 0.0,
+          "max": 0.0010148882865905762,
+          "median": 0.0004292428493499756
+        }
+      },
+      "summary_recognition_deepseek_results.json": {
+        "recognition_Yes": {
+          "count": 2000,
+          "mean": 0.8964310590364696,
+          "std": 0.0488567381286525,
+          "min": 0.33464489474719655,
+          "max": 0.9632326174008009,
+          "median": 0.9032720229346258
+        },
+        "recognition_No": {
+          "count": 2000,
+          "mean": 0.10356894096353039,
+          "std": 0.0488567381286525,
+          "min": 0.03676738259919913,
+          "max": 0.6653551052528035,
+          "median": 0.0967279770653741
+        },
+        "raw_probabilities_raw_yes": {
+          "count": 2000,
+          "mean": 0.00035782212018966675,
+          "std": 0.00012754639300705054,
+          "min": 0.0,
+          "max": 0.0009136199951171875,
+          "median": 0.0003451108932495117
+        },
+        "raw_probabilities_raw_no": {
+          "count": 2000,
+          "mean": 3.936716914176941e-05,
+          "std": 1.7253865887469455e-05,
+          "min": 0.0,
+          "max": 0.0002015829086303711,
+          "median": 3.7550926208496094e-05
+        },
+        "raw_probabilities_total_yes_no": {
+          "count": 2000,
+          "mean": 0.00039718928933143614,
+          "std": 0.00013829307710266182,
+          "min": 0.0,
+          "max": 0.0010306835174560547,
+          "median": 0.00038683414459228516
+        }
+      },
+      "summary_recognition_llama_results.json": {
+        "recognition_Yes": {
+          "count": 2000,
+          "mean": 0.8957707096912677,
+          "std": 0.04315681103029665,
+          "min": 0.5,
+          "max": 0.9572813977719002,
+          "median": 0.900429216173897
+        },
+        "recognition_No": {
+          "count": 2000,
+          "mean": 0.10422929030873225,
+          "std": 0.04315681103029665,
+          "min": 0.0427186022280997,
+          "max": 0.5,
+          "median": 0.09957078382610297
+        },
+        "raw_probabilities_raw_yes": {
+          "count": 2000,
+          "mean": 0.0003590785562992096,
+          "std": 0.00012927560867980451,
+          "min": 0.0,
+          "max": 0.0009098052978515625,
+          "median": 0.00034236907958984375
+        },
+        "raw_probabilities_raw_no": {
+          "count": 2000,
+          "mean": 4.022112488746643e-05,
+          "std": 1.719721978792859e-05,
+          "min": 0.0,
+          "max": 0.00015032291412353516,
+          "median": 3.853440284729004e-05
+        },
+        "raw_probabilities_total_yes_no": {
+          "count": 2000,
+          "mean": 0.000399299681186676,
+          "std": 0.00014140510213068007,
+          "min": 0.0,
+          "max": 0.0009931325912475586,
+          "median": 0.000384598970413208
+        }
+      }
+    },
+    "Pairwise_Recognition_result": {
+      "paper_summary_gemma_vs_gemini_recognition.json": {
+        "recognition_confidence": {
+          "count": 4000,
+          "mean": 0.4968152492773356,
+          "std": 0.013912415052097147,
+          "min": 0.3524486471106687,
+          "max": 0.6557095870194912,
+          "median": 0.4975962287989786
+        },
+        "pairwise_gemma_confidence": {
+          "count": 2000,
+          "mean": 0.49681524927733567,
+          "std": 0.01391415486515367,
+          "min": 0.3524486471106687,
+          "max": 0.6557095870194912,
+          "median": 0.4975962287989786
+        },
+        "average_recognition_confidence": {
+          "count": 1,
+          "mean": 0.49681524927733456,
+          "std": 0,
+          "min": 0.49681524927733456,
+          "max": 0.49681524927733456,
+          "median": 0.49681524927733456
+        },
+        "high_confidence_ratio": {
+          "count": 1,
+          "mean": 0.0,
+          "std": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "median": 0.0
+        }
+      },
+      "paper_summary_gemma_vs_Deepseek_recognition.json": {
+        "recognition_confidence": {
+          "count": 4000,
+          "mean": 0.49381835681767755,
+          "std": 0.018683453791436405,
+          "min": 0.33717605459074934,
+          "max": 0.713986713986714,
+          "median": 0.4945386665395236
+        },
+        "pairwise_gemma_confidence": {
+          "count": 2000,
+          "mean": 0.4938183568176776,
+          "std": 0.01868579024536806,
+          "min": 0.33717605459074934,
+          "max": 0.713986713986714,
+          "median": 0.4945386665395236
+        },
+        "average_recognition_confidence": {
+          "count": 1,
+          "mean": 0.4938183568176774,
+          "std": 0,
+          "min": 0.4938183568176774,
+          "max": 0.4938183568176774,
+          "median": 0.4938183568176774
+        },
+        "high_confidence_ratio": {
+          "count": 1,
+          "mean": 0.0005,
+          "std": 0,
+          "min": 0.0005,
+          "max": 0.0005,
+          "median": 0.0005
+        }
+      },
+      "paper_summary_gemma_vs_qwen_recognition.json": {
+        "recognition_confidence": {
+          "count": 4000,
+          "mean": 0.5082776570025556,
+          "std": 0.018040029012579614,
+          "min": 0.4085730816760594,
+          "max": 0.6992693650588387,
+          "median": 0.5050165244472269
+        },
+        "pairwise_gemma_confidence": {
+          "count": 2000,
+          "mean": 0.5082776570025556,
+          "std": 0.018042285003210902,
+          "min": 0.4085730816760594,
+          "max": 0.6992693650588387,
+          "median": 0.5050165244472269
+        },
+        "average_recognition_confidence": {
+          "count": 1,
+          "mean": 0.5082776570025557,
+          "std": 0,
+          "min": 0.5082776570025557,
+          "max": 0.5082776570025557,
+          "median": 0.5082776570025557
+        },
+        "high_confidence_ratio": {
+          "count": 1,
+          "mean": 0.0,
+          "std": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "median": 0.0
+        }
+      },
+      "paper_summary_gemma_vs_Llama_recognition.json": {
+        "recognition_confidence": {
+          "count": 4000,
+          "mean": 0.4901948469316242,
+          "std": 0.015875559283328972,
+          "min": 0.36281501094420543,
+          "max": 0.6617582143005872,
+          "median": 0.49178426662560865
+        },
+        "pairwise_gemma_confidence": {
+          "count": 2000,
+          "mean": 0.4901948469316242,
+          "std": 0.0158775445968218,
+          "min": 0.36281501094420543,
+          "max": 0.6617582143005872,
+          "median": 0.49178426662560865
+        },
+        "average_recognition_confidence": {
+          "count": 1,
+          "mean": 0.4901948469316244,
+          "std": 0,
+          "min": 0.4901948469316244,
+          "max": 0.4901948469316244,
+          "median": 0.4901948469316244
+        },
+        "high_confidence_ratio": {
+          "count": 1,
+          "mean": 0.0,
+          "std": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "median": 0.0
+        }
+      }
+    },
+    "Pairwise_Preference_result": {
+      "paper_summary_gemma_vs_Llama_preference.json": {
+        "preference_confidence": {
+          "count": 4000,
+          "mean": 0.4897108207712724,
+          "std": 0.02110396977415756,
+          "min": 0.3150323143662969,
+          "max": 0.8292594117486001,
+          "median": 0.49314960232394467
+        },
+        "pairwise_gemma_confidence": {
+          "count": 2000,
+          "mean": 0.4897108207712724,
+          "std": 0.021106608925018144,
+          "min": 0.3150323143662969,
+          "max": 0.8292594117486001,
+          "median": 0.49314960232394467
+        },
+        "average_preference_confidence": {
+          "count": 1,
+          "mean": 0.48971082077127326,
+          "std": 0,
+          "min": 0.48971082077127326,
+          "max": 0.48971082077127326,
+          "median": 0.48971082077127326
+        }
+      },
+      "paper_summary_gemma_vs_gemini_preference.json": {
+        "preference_confidence": {
+          "count": 4000,
+          "mean": 0.4967341754324691,
+          "std": 0.016945418172358884,
+          "min": 0.3301197374991295,
+          "max": 0.6129151738760513,
+          "median": 0.49822352238753564
+        },
+        "pairwise_gemma_confidence": {
+          "count": 2000,
+          "mean": 0.4967341754324691,
+          "std": 0.01694753727674688,
+          "min": 0.3301197374991295,
+          "max": 0.6129151738760513,
+          "median": 0.49822352238753564
+        },
+        "average_preference_confidence": {
+          "count": 1,
+          "mean": 0.4967341754324683,
+          "std": 0,
+          "min": 0.4967341754324683,
+          "max": 0.4967341754324683,
+          "median": 0.4967341754324683
+        }
+      },
+      "paper_summary_gemma_vs_Deepseek_preference.json": {
+        "preference_confidence": {
+          "count": 4000,
+          "mean": 0.49657558147493486,
+          "std": 0.022820186409858396,
+          "min": 0.29949751005164843,
+          "max": 0.711034120825728,
+          "median": 0.497787944848036
+        },
+        "pairwise_gemma_confidence": {
+          "count": 2000,
+          "mean": 0.49657558147493486,
+          "std": 0.022823040181695956,
+          "min": 0.29949751005164843,
+          "max": 0.711034120825728,
+          "median": 0.497787944848036
+        },
+        "average_preference_confidence": {
+          "count": 1,
+          "mean": 0.4965755814749347,
+          "std": 0,
+          "min": 0.4965755814749347,
+          "max": 0.4965755814749347,
+          "median": 0.4965755814749347
+        }
+      },
+      "paper_summary_gemma_vs_qwen_preference.json": {
+        "preference_confidence": {
+          "count": 4000,
+          "mean": 0.5062681449632235,
+          "std": 0.01733493031014458,
+          "min": 0.39945708421016324,
+          "max": 0.6434277554800865,
+          "median": 0.5023736518930066
+        },
+        "pairwise_gemma_confidence": {
+          "count": 2000,
+          "mean": 0.5062681449632235,
+          "std": 0.017337098124860756,
+          "min": 0.39945708421016324,
+          "max": 0.6434277554800865,
+          "median": 0.5023736518930066
+        },
+        "average_preference_confidence": {
+          "count": 1,
+          "mean": 0.5062681449632239,
+          "std": 0,
+          "min": 0.5062681449632239,
+          "max": 0.5062681449632239,
+          "median": 0.5062681449632239
+        }
+      }
+    }
+  },
+  "Story": {
+    "Individual_Preference_result": {
+      "story_preference_llama_results.json": {
+        "score": {
+          "count": 2000,
+          "mean": 3.4595681711545665,
+          "std": 0.15115491647068022,
+          "min": 2.976556495003843,
+          "max": 4.142785065590313,
+          "median": 3.4534322117574643
+        }
+      },
+      "story_preference_gemma_results.json": {
+        "score": {
+          "count": 2000,
+          "mean": 3.414267906987102,
+          "std": 0.12033866999949851,
+          "min": 3.007022471910112,
+          "max": 3.757905000696476,
+          "median": 3.4103382187858786
+        }
+      },
+      "story_preference_gemini_results.json": {
+        "score": {
+          "count": 2000,
+          "mean": 3.4894608149840547,
+          "std": 0.10653382853486115,
+          "min": 3.061865189289012,
+          "max": 3.86929948283968,
+          "median": 3.4940166126988594
+        }
+      },
+      "story_preference_qwen_results.json": {
+        "score": {
+          "count": 2000,
+          "mean": 3.546627940381303,
+          "std": 0.14183782617365928,
+          "min": 3.0408163265306123,
+          "max": 3.90186592950933,
+          "median": 3.551070038910506
+        }
+      },
+      "story_preference_deepseek_results.json": {
+        "score": {
+          "count": 2000,
+          "mean": 3.5112670473226317,
+          "std": 0.19020554860732675,
+          "min": 2.8913749548899315,
+          "max": 4.273404377220121,
+          "median": 3.4976359338061465
+        }
+      }
+    },
+    "Individual_Recognition_result": {
+      "recognition_test_gemini_results.json": {
+        "recognition_Yes": {
+          "count": 2000,
+          "mean": 0.8390350286800208,
+          "std": 0.032657828488889866,
+          "min": 0.7428774928774928,
+          "max": 0.9244186046511628,
+          "median": 0.8407494145199064
+        },
+        "recognition_No": {
+          "count": 2000,
+          "mean": 0.16096497131997917,
+          "std": 0.032657828488889866,
+          "min": 0.0755813953488372,
+          "max": 0.2571225071225071,
+          "median": 0.1592505854800937
+        },
+        "raw_probabilities_raw_yes": {
+          "count": 2000,
+          "mean": 6.921994686126709e-05,
+          "std": 2.244006089768847e-05,
+          "min": 3.325939178466797e-05,
+          "max": 0.0006241798400878906,
+          "median": 6.535649299621582e-05
+        },
+        "raw_probabilities_raw_no": {
+          "count": 2000,
+          "mean": 1.3391762971878052e-05,
+          "std": 5.1589572880320154e-06,
+          "min": 4.172325134277344e-06,
+          "max": 6.42538070678711e-05,
+          "median": 1.2367963790893555e-05
+        },
+        "raw_probabilities_total_yes_no": {
+          "count": 2000,
+          "mean": 8.261170983314514e-05,
+          "std": 2.6455965387401076e-05,
+          "min": 3.7670135498046875e-05,
+          "max": 0.0006884336471557617,
+          "median": 7.751584053039551e-05
+        }
+      },
+      "recognition_test_llama_results.json": {
+        "recognition_Yes": {
+          "count": 2000,
+          "mean": 0.8536985834688103,
+          "std": 0.031173920412684866,
+          "min": 0.732612055641422,
+          "max": 0.9293156857223317,
+          "median": 0.8570029382957884
+        },
+        "recognition_No": {
+          "count": 2000,
+          "mean": 0.1463014165311896,
+          "std": 0.031173920412684866,
+          "min": 0.07068431427766826,
+          "max": 0.26738794435857804,
+          "median": 0.14299706170421156
+        },
+        "raw_probabilities_raw_yes": {
+          "count": 2000,
+          "mean": 0.00012806662917137147,
+          "std": 4.736796660138944e-05,
+          "min": 4.1604042053222656e-05,
+          "max": 0.00029969215393066406,
+          "median": 0.00012034177780151367
+        },
+        "raw_probabilities_raw_no": {
+          "count": 2000,
+          "mean": 2.1206170320510865e-05,
+          "std": 7.139931383531763e-06,
+          "min": 6.973743438720703e-06,
+          "max": 6.842613220214844e-05,
+          "median": 2.002716064453125e-05
+        },
+        "raw_probabilities_total_yes_no": {
+          "count": 2000,
+          "mean": 0.00014927279949188233,
+          "std": 5.267439631383873e-05,
+          "min": 4.965066909790039e-05,
+          "max": 0.00036203861236572266,
+          "median": 0.0001399517059326172
+        }
+      },
+      "recognition_test_deepseek_results.json": {
+        "recognition_Yes": {
+          "count": 2000,
+          "mean": 0.8300978666826668,
+          "std": 0.04497780601447223,
+          "min": 0.6529680365296804,
+          "max": 0.9453832965956405,
+          "median": 0.8323412698412699
+        },
+        "recognition_No": {
+          "count": 2000,
+          "mean": 0.16990213331733323,
+          "std": 0.04497780601447223,
+          "min": 0.05461670340435954,
+          "max": 0.3470319634703196,
+          "median": 0.16765873015873015
+        },
+        "raw_probabilities_raw_yes": {
+          "count": 2000,
+          "mean": 9.595245122909546e-05,
+          "std": 4.733539541170952e-05,
+          "min": 2.759695053100586e-05,
+          "max": 0.0006623268127441406,
+          "median": 8.636713027954102e-05
+        },
+        "raw_probabilities_raw_no": {
+          "count": 2000,
+          "mean": 1.8637150526046754e-05,
+          "std": 6.694801737099289e-06,
+          "min": 3.933906555175781e-06,
+          "max": 5.817413330078125e-05,
+          "median": 1.800060272216797e-05
+        },
+        "raw_probabilities_total_yes_no": {
+          "count": 2000,
+          "mean": 0.00011458960175514221,
+          "std": 5.113259917512644e-05,
+          "min": 3.4809112548828125e-05,
+          "max": 0.0007014870643615723,
+          "median": 0.00010448694229125977
+        }
+      },
+      "recognition_test_qwen_results.json": {
+        "recognition_Yes": {
+          "count": 2000,
+          "mean": 0.8776299983160517,
+          "std": 0.03507387604361701,
+          "min": 0.6169248205515678,
+          "max": 0.939117199391172,
+          "median": 0.8832309001693992
+        },
+        "recognition_No": {
+          "count": 2000,
+          "mean": 0.12237000168394836,
+          "std": 0.03507387604361701,
+          "min": 0.060882800608828,
+          "max": 0.38307517944843217,
+          "median": 0.11676909983060077
+        },
+        "raw_probabilities_raw_yes": {
+          "count": 2000,
+          "mean": 0.0002445369958877563,
+          "std": 8.482320486094055e-05,
+          "min": 9.691715240478516e-05,
+          "max": 0.0010204315185546875,
+          "median": 0.00023090839385986328
+        },
+        "raw_probabilities_raw_no": {
+          "count": 2000,
+          "mean": 3.382560610771179e-05,
+          "std": 1.401186482819581e-05,
+          "min": 1.2695789337158203e-05,
+          "max": 0.00013303756713867188,
+          "median": 3.078579902648926e-05
+        },
+        "raw_probabilities_total_yes_no": {
+          "count": 2000,
+          "mean": 0.00027836260199546817,
+          "std": 9.407366288799053e-05,
+          "min": 0.00011467933654785156,
+          "max": 0.0011367201805114746,
+          "median": 0.00026541948318481445
+        }
+      },
+      "Gemma_recognition_test_results_2000.json": {
+        "recognition_Yes": {
+          "count": 2000,
+          "mean": 0.89350146484375,
+          "std": 0.021475408235981628,
+          "min": 0.80419921875,
+          "max": 0.9619140625,
+          "median": 0.896484375
+        },
+        "recognition_No": {
+          "count": 2000,
+          "mean": 0.10650450134277344,
+          "std": 0.021494142744224978,
+          "min": 0.03790283203125,
+          "max": 0.195556640625,
+          "median": 0.103759765625
+        }
+      }
+    },
+    "Pairwise_recognition_result": {
+      "gemma_vs_gemini_recognition.json": {
+        "pairwise_gemma_confidence": {
+          "count": 2000,
+          "mean": 0.49713638853136766,
+          "std": 0.0026340240886237416,
+          "min": 0.4866020714327511,
+          "max": 0.5152975243096246,
+          "median": 0.49732125958622536
+        }
+      },
+      "gemma_vs_deepseek_recognition.json": {
+        "pairwise_gemma_confidence": {
+          "count": 2000,
+          "mean": 0.5014860111466765,
+          "std": 0.002949626464246006,
+          "min": 0.49061732113919776,
+          "max": 0.5156495079434387,
+          "median": 0.5018294042103633
+        }
+      },
+      "gemma_vs_qwen_recognition.json": {
+        "pairwise_gemma_confidence": {
+          "count": 2000,
+          "mean": 0.499035593514715,
+          "std": 0.003629277046831768,
+          "min": 0.4834504327206356,
+          "max": 0.5501437204568893,
+          "median": 0.4993102391595113
+        }
+      },
+      "gemma_vs_llama_recognition.json": {
+        "pairwise_gemma_confidence": {
+          "count": 2000,
+          "mean": 0.49989520252998576,
+          "std": 0.0025446017753557788,
+          "min": 0.48612836103364054,
+          "max": 0.512870434735103,
+          "median": 0.5000118418621637
+        }
+      }
+    },
+    "Pairwise_preference_result": {
+      "gemma_vs_llama_preference.json": {
+        "pairwise_gemma_confidence": {
+          "count": 2000,
+          "mean": 0.49968376176599166,
+          "std": 0.0016216041832567661,
+          "min": 0.4880862976032475,
+          "max": 0.5049253133611079,
+          "median": 0.4999542705299311
+        }
+      },
+      "gemma_vs_qwen_preference.json": {
+        "pairwise_gemma_confidence": {
+          "count": 2000,
+          "mean": 0.49912031738601376,
+          "std": 0.0020042930955355832,
+          "min": 0.4882704647236639,
+          "max": 0.534582230860869,
+          "median": 0.49919341340459905
+        }
+      },
+      "gemma_vs_deepseek_preference.json": {
+        "pairwise_gemma_confidence": {
+          "count": 2000,
+          "mean": 0.5012440981457229,
+          "std": 0.0019143217466208718,
+          "min": 0.48237945236329327,
+          "max": 0.5100902335572858,
+          "median": 0.5012433115463861
+        }
+      },
+      "gemma_vs_gemini_preference.json": {
+        "pairwise_gemma_confidence": {
+          "count": 2000,
+          "mean": 0.49824627895881896,
+          "std": 0.001685764079213181,
+          "min": 0.49204411597868625,
+          "max": 0.5029379237132139,
+          "median": 0.4984839207968256
+        }
+      }
+    }
+  }
+}

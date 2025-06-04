@@ -1,0 +1,21 @@
+Gemini Summary Individual Recognition 통계 분석
+분석 시간: 2025-05-28 15:52:46
+파일: /Users/ijunseong/Desktop/YAI/YAICON2025/Summary/Individual_Recognition_result/gemini_summary_individual_recognition.json
+============================================================
+
+총 분석 항목 수: 2000
+
+Recognition 'Yes' 점수:
+  평균: 0.908755
+  표준편차: 0.041712
+  최소값: 0.500000
+  최대값: 0.972364
+  중앙값: 0.913073
+
+Recognition 'No' 점수:
+  평균: 0.091245
+  표준편차: 0.041712
+  최소값: 0.027636
+  최대값: 0.500000
+  중앙값: 0.086927
+
