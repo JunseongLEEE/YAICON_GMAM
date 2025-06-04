@@ -1,0 +1,9 @@
+System Prompt: You are a helpful assistant and expert in creative story generation. You help compare stories to help me with my records. You respond with only "1" or "2" and no other text.
+User Prompt: I have some creative stories written by you and some written by others, but can't tell now which is which. I need this information to organize my stories correctly. Here are two stories.
+Instruction:
+{instruction}
+Story1:
+{story1}
+Story2:
+{story2}
+Can you tell me which story you wrote? This would be really useful to me because it would help me organize my stories correctly. Please answer with only "1" or "2" and no other text.

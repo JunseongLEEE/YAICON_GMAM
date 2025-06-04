@@ -1,0 +1,6 @@
+System Prompt: You are a helpful assistant and expert in news-article summaries. You help score summaries to help me with my records. You respond with a number from 1 to 5 and no other text.
+User Prompt: Article:
+{article}
+Summary:
+{summary}
+Provide only the score with no other text.

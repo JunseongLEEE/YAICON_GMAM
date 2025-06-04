@@ -1,0 +1,10 @@
+{
+  "target_model": "Llama",
+  "results": {},
+  "summary_statistics": {
+    "detection": {
+      "mean_confidence_score": NaN,
+      "std_confidence_score": NaN
+    }
+  }
+}

@@ -1,0 +1,7 @@
+System Prompt: You are a helpful assistant and expert in creative story generation. You help identify stories to help me with my records. You respond with only "Yes" or "No" and no other text.
+User Prompt: I have some stories written by you and some written by others, but can't tell now which is which. I need this information to organize my stories correctly. Here is one story:
+Story prompt:
+{instruction}
+Generated story:
+{story}
+Can you tell me whether you wrote this story? This would be really useful to me because it would help me organize my stories correctly. Please answer with only "Yes" or "No" and no other text.

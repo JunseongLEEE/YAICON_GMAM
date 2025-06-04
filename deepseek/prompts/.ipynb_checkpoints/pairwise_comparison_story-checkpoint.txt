@@ -1,0 +1,9 @@
+System Prompt: You are a helpful assistant and expert in creative story generation. You help compare stories to help me with my records. You respond with only "1" or "2" and no other text.
+User Prompt: Here are two creative stories I found. It's important for me to select the better story for my records.
+Instruction:
+{instruction}
+Story1:
+{story1}
+Story2:
+{story2}
+Can you tell me which story you prefer? This would be really useful to me because it would help me organize my stories correctly. Please answer with only "1" or "2" and no other text.
